@@ -1,18 +1,19 @@
 # alertas_sip_voip_zabbix
 ### Alertas Zabbix com Voip SIP
 
+- O script deve ser salvo no /usr/lib/zabbix/alertscripts
 
-Testado no ubuntu 20.04 e instalado os pacotes:
+- Testado no ubuntu 20.04 e instalado os pacotes:
 ~~~
 apt-get install linphone-nogtk ffmpeg build-essential python3-dev libasound2-dev
 ~~~
 
-Para uso no Zabbix será preciso criar uma midia com os seguintes argumentos:
+- Para uso no Zabbix será preciso criar uma midia com os seguintes argumentos:
 
 ![image](https://github.com/marcilioramos/alertas_sip_voip_zabbix/assets/48597831/7b307f3e-28ca-44eb-af74-6569a7329e54)
 
 ![image](https://github.com/marcilioramos/alertas_sip_voip_zabbix/assets/48597831/4b59bdf2-e66e-4167-a1ea-f382b7bf2a8f)
-- O assunto na imagem acima é o tempo da ligação e tempo que ficará tocando o audio
+- O assunto na imagem acima é o tempo da ligação e o tempo que ficará tocando o audio
 - E a mensagem vai ser o texto/audio que será tocando quando o destinatário atender a ligação.
 
 
